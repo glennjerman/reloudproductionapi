@@ -1,0 +1,539 @@
+*** Starting uWSGI 2.0.26 (64bit) on [Thu Jun 20 22:37:12 2024] ***
+compiled with version: 12.2.0 on 20 June 2024 21:23:58
+os: Linux-6.6.20+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.6.20-1+rpt1 (2024-03-07)
+nodename: raspberrypi
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/paulk/ReloudApi/reloudAPI
+detected binary path: /home/paulk/myenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 5278
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/paulk/ReloudApi/reloudAPI/myproject.sock fd 3
+Python version: 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fadc9fee8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+ModuleNotFoundError: No module named 'api.wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 26056, cores: 1)
+*** Starting uWSGI 2.0.26 (64bit) on [Thu Jun 20 22:39:31 2024] ***
+compiled with version: 12.2.0 on 20 June 2024 21:23:58
+os: Linux-6.6.20+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.6.20-1+rpt1 (2024-03-07)
+nodename: raspberrypi
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/paulk/ReloudApi/reloudAPI
+detected binary path: /home/paulk/myenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 5278
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/paulk/ReloudApi/reloudAPI/myproject.sock fd 3
+Python version: 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f878efee8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+ModuleNotFoundError: No module named 'api.wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 26093, cores: 1)
+*** Starting uWSGI 2.0.26 (64bit) on [Thu Jun 20 22:45:23 2024] ***
+compiled with version: 12.2.0 on 20 June 2024 21:23:58
+os: Linux-6.6.20+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.6.20-1+rpt1 (2024-03-07)
+nodename: raspberrypi
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/paulk/ReloudApi/reloudAPI/reloudAPI
+detected binary path: /home/paulk/myenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 5278
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/paulk/ReloudApi/reloudAPI/myproject.sock fd 3
+Python version: 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fbd01fee8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+ModuleNotFoundError: No module named 'api'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 26102, cores: 1)
+*** Starting uWSGI 2.0.26 (64bit) on [Thu Jun 20 22:49:10 2024] ***
+compiled with version: 12.2.0 on 20 June 2024 21:23:58
+os: Linux-6.6.20+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.6.20-1+rpt1 (2024-03-07)
+nodename: raspberrypi
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/paulk/ReloudApi/reloudAPI
+detected binary path: /home/paulk/myenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 5278
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/paulk/ReloudApi/reloudAPI/myproject.sock fd 3
+Python version: 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fb0f0fee8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+ModuleNotFoundError: No module named 'api.wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 26117, cores: 1)
+*** Starting uWSGI 2.0.26 (64bit) on [Thu Jun 20 22:54:32 2024] ***
+compiled with version: 12.2.0 on 20 June 2024 21:23:58
+os: Linux-6.6.20+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.6.20-1+rpt1 (2024-03-07)
+nodename: raspberrypi
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/paulk/ReloudApi/reloudAPI
+detected binary path: /home/paulk/myenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/paulk/ReloudApi/reloudAPI
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 5278
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/paulk/ReloudApi/reloudAPI/myproject.sock fd 3
+Python version: 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fbad2fee8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+ModuleNotFoundError: No module named 'api.wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 26129, cores: 1)
+*** Starting uWSGI 2.0.26 (64bit) on [Thu Jun 20 23:42:37 2024] ***
+compiled with version: 12.2.0 on 20 June 2024 21:23:58
+os: Linux-6.6.20+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.6.20-1+rpt1 (2024-03-07)
+nodename: raspberrypi
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/paulk/ReloudApi/reloudAPI
+detected binary path: /home/paulk/myenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 5278
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+chown(): Operation not permitted [core/utils.c line 2635]
+*** Starting uWSGI 2.0.26 (64bit) on [Thu Jun 20 23:54:46 2024] ***
+compiled with version: 12.2.0 on 20 June 2024 21:23:58
+os: Linux-6.6.20+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.6.20-1+rpt1 (2024-03-07)
+nodename: raspberrypi
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/paulk/ReloudApi/reloudAPI
+detected binary path: /home/paulk/myenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 5278
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/paulk/ReloudApi/reloudAPI/myproject.sock fd 3
+Python version: 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fbb50fee8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+ModuleNotFoundError: No module named 'api.wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 26309, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 26309|app: -1|req: -1/1] 192.168.86.1 () {40 vars in 537 bytes} [Fri Jun 21 00:00:04 2024] GET /api/audio => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 26309|app: -1|req: -1/2] 192.168.86.1 () {40 vars in 537 bytes} [Fri Jun 21 00:00:05 2024] GET /api/audio => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 26309|app: -1|req: -1/3] 192.168.86.1 () {40 vars in 537 bytes} [Fri Jun 21 00:00:06 2024] GET /api/audio => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 26309|app: -1|req: -1/4] 192.168.86.1 () {40 vars in 537 bytes} [Fri Jun 21 00:00:06 2024] GET /api/audio => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 26309|app: -1|req: -1/5] 192.168.86.1 () {40 vars in 537 bytes} [Fri Jun 21 00:00:06 2024] GET /api/audio => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 26309|app: -1|req: -1/6] 192.168.86.1 () {40 vars in 537 bytes} [Fri Jun 21 00:00:06 2024] GET /api/audio => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 26309|app: -1|req: -1/7] 192.168.86.1 () {40 vars in 537 bytes} [Fri Jun 21 00:00:07 2024] GET /api/audio => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 26309|app: -1|req: -1/8] 192.168.86.1 () {40 vars in 537 bytes} [Fri Jun 21 00:00:52 2024] GET /api/audio => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 26309|app: -1|req: -1/9] 192.168.86.1 () {40 vars in 537 bytes} [Fri Jun 21 00:00:52 2024] GET /api/audio => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 26309|app: -1|req: -1/10] 192.168.86.1 () {40 vars in 537 bytes} [Fri Jun 21 00:00:53 2024] GET /api/audio => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 26309|app: -1|req: -1/11] 192.168.86.1 () {40 vars in 537 bytes} [Fri Jun 21 00:00:53 2024] GET /api/audio => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 26309|app: -1|req: -1/12] 192.168.86.1 () {40 vars in 537 bytes} [Fri Jun 21 00:00:54 2024] GET /api/audio => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 26309|app: -1|req: -1/13] 192.168.86.1 () {40 vars in 537 bytes} [Fri Jun 21 00:00:54 2024] GET /api/audio => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 26309|app: -1|req: -1/14] 192.168.86.1 () {40 vars in 537 bytes} [Fri Jun 21 00:00:55 2024] GET /api/audio => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.26 (64bit) on [Fri Jun 21 00:08:42 2024] ***
+compiled with version: 12.2.0 on 20 June 2024 21:23:58
+os: Linux-6.6.20+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.6.20-1+rpt1 (2024-03-07)
+nodename: raspberrypi
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/paulk/ReloudApi/reloudAPI
+detected binary path: /home/paulk/myenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 5278
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+error removing unix socket, unlink(): Permission denied [core/socket.c line 198]
+bind(): Address already in use [core/socket.c line 230]
+*** Starting uWSGI 2.0.26 (64bit) on [Fri Jun 21 00:10:37 2024] ***
+compiled with version: 12.2.0 on 20 June 2024 21:23:58
+os: Linux-6.6.20+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.6.20-1+rpt1 (2024-03-07)
+nodename: raspberrypi
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/paulk/ReloudApi/reloudAPI
+detected binary path: /home/paulk/myenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 5278
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+error removing unix socket, unlink(): Permission denied [core/socket.c line 198]
+bind(): Address already in use [core/socket.c line 230]
+*** Starting uWSGI 2.0.26 (64bit) on [Fri Jun 21 00:13:35 2024] ***
+compiled with version: 12.2.0 on 20 June 2024 21:23:58
+os: Linux-6.6.20+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.6.20-1+rpt1 (2024-03-07)
+nodename: raspberrypi
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/paulk/ReloudApi/reloudAPI
+detected binary path: /home/paulk/myenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 5278
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+bind(): Permission denied [core/socket.c line 230]
+*** Starting uWSGI 2.0.26 (64bit) on [Fri Jun 21 00:16:08 2024] ***
+compiled with version: 12.2.0 on 20 June 2024 21:23:58
+os: Linux-6.6.20+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.6.20-1+rpt1 (2024-03-07)
+nodename: raspberrypi
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/paulk/ReloudApi/reloudAPI
+detected binary path: /home/paulk/myenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 5278
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/paulk/ReloudApi/reloudAPI/myproject.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fae6bfee8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+ModuleNotFoundError: No module named 'api.wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 26623, cores: 1)
+*** Starting uWSGI 2.0.26 (64bit) on [Fri Jun 21 00:26:16 2024] ***
+compiled with version: 12.2.0 on 20 June 2024 21:23:58
+os: Linux-6.6.20+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.6.20-1+rpt1 (2024-03-07)
+nodename: raspberrypi
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/paulk/ReloudApi/reloudAPI
+detected binary path: /home/paulk/myenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/paulk/ReloudApi/reloudAPI
+your processes number limit is 5278
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/paulk/ReloudApi/reloudAPI/myproject.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]
+Python main interpreter initialized at 0x7faeaafee8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7faeaafee8 pid: 26722 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 26722)
+spawned uWSGI worker 1 (pid: 26723, cores: 2)
+spawned uWSGI worker 2 (pid: 26725, cores: 2)
+spawned uWSGI worker 3 (pid: 26727, cores: 2)
+spawned uWSGI worker 4 (pid: 26729, cores: 2)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/paulk/ReloudApi/reloudAPI/myproject.sock removed.
+*** Starting uWSGI 2.0.26 (64bit) on [Fri Jun 21 00:34:51 2024] ***
+compiled with version: 12.2.0 on 20 June 2024 21:23:58
+os: Linux-6.6.20+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.6.20-1+rpt1 (2024-03-07)
+nodename: raspberrypi
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/paulk/ReloudApi/reloudAPI
+detected binary path: /home/paulk/myenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 5278
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/paulk/ReloudApi/reloudAPI/myproject.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f897bfee8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+ModuleNotFoundError: No module named 'api.wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 26748, cores: 1)
+*** Starting uWSGI 2.0.26 (64bit) on [Fri Jun 21 00:54:10 2024] ***
+compiled with version: 12.2.0 on 20 June 2024 21:23:58
+os: Linux-6.6.20+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.6.20-1+rpt1 (2024-03-07)
+nodename: raspberrypi
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/paulk/ReloudApi/reloudAPI
+detected binary path: /home/paulk/myenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 5278
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/paulk/ReloudApi/reloudAPI/myproject.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f958efee8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+ModuleNotFoundError: No module named 'api.wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 26915, cores: 1)
+*** Starting uWSGI 2.0.26 (64bit) on [Fri Jun 21 01:02:09 2024] ***
+compiled with version: 12.2.0 on 20 June 2024 21:23:58
+os: Linux-6.6.20+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.6.20-1+rpt1 (2024-03-07)
+nodename: raspberrypi
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/paulk/ReloudApi/reloudAPI
+detected binary path: /home/paulk/myenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 5278
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/paulk/ReloudApi/reloudAPI/myproject.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fa9effee8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fa9effee8 pid: 26955 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 26955, cores: 1)
+*** Starting uWSGI 2.0.26 (64bit) on [Sat Jun 22 20:45:39 2024] ***
+compiled with version: 12.2.0 on 20 June 2024 21:23:58
+os: Linux-6.6.20+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.6.20-1+rpt1 (2024-03-07)
+nodename: raspberrypi
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/paulk
+detected binary path: /home/paulk/myenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 5278
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/paulk/ReloudApi/reloudAPI/myproject.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f8bacfee8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+ModuleNotFoundError: No module named 'api'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 29461, cores: 1)
+*** Starting uWSGI 2.0.26 (64bit) on [Sat Jun 22 20:57:26 2024] ***
+compiled with version: 12.2.0 on 20 June 2024 21:23:58
+os: Linux-6.6.20+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.6.20-1+rpt1 (2024-03-07)
+nodename: raspberrypi
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/paulk
+detected binary path: /home/paulk/myenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 5278
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/paulk/ReloudApi/reloudAPI/myproject.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f924dfee8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+ModuleNotFoundError: No module named 'api'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 29514, cores: 1)

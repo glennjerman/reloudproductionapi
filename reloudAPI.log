@@ -1,0 +1,66 @@
+*** Starting uWSGI 2.0.26 (64bit) on [Thu Jun 20 22:12:47 2024] ***
+compiled with version: 12.2.0 on 19 June 2024 17:53:28
+os: Linux-6.6.20+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.6.20-1+rpt1 (2024-03-07)
+nodename: raspberrypi
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/paulk/ReloudApi/reloudAPI
+detected binary path: /home/paulk/myenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 5278
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8000 fd 4
+spawned uWSGI http 1 (pid: 25254)
+uwsgi socket 0 bound to TCP address 127.0.0.1:35267 (port auto-assigned) fd 3
+Python version: 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fa8b2fee8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fa8b2fee8 pid: 25253 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 25253, cores: 1)
+[pid: 25253|app: 0|req: 1/1] 192.168.86.115 () {34 vars in 450 bytes} [Thu Jun 20 21:13:09 2024] GET /api/audio/32/ => generated 221 bytes in 821 msecs (HTTP/1.1 200) 8 headers in 257 bytes (1 switches on core 0)
+[pid: 25253|app: 0|req: 2/2] 192.168.86.115 () {34 vars in 450 bytes} [Thu Jun 20 21:13:16 2024] GET /api/audio/32/ => generated 221 bytes in 25 msecs (HTTP/1.1 200) 8 headers in 257 bytes (1 switches on core 0)
+[pid: 25253|app: 0|req: 3/3] 192.168.86.115 () {34 vars in 450 bytes} [Thu Jun 20 21:13:16 2024] GET /api/audio/32/ => generated 221 bytes in 25 msecs (HTTP/1.1 200) 8 headers in 257 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.26 (64bit) on [Thu Jun 20 22:14:55 2024] ***
+compiled with version: 12.2.0 on 19 June 2024 17:53:28
+os: Linux-6.6.20+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.6.20-1+rpt1 (2024-03-07)
+nodename: raspberrypi
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/paulk/ReloudApi/reloudAPI
+detected binary path: /home/paulk/myenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 5278
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8443 fd 4
+spawned uWSGI http 1 (pid: 25272)
+uwsgi socket 0 bound to TCP address 127.0.0.1:32875 (port auto-assigned) fd 3
+Python version: 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f85d7fee8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f85d7fee8 pid: 25271 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 25271, cores: 1)
+[pid: 25271|app: 0|req: 1/1] 192.168.86.115 () {34 vars in 449 bytes} [Thu Jun 20 21:15:01 2024] GET /api/audio/32/ => generated 221 bytes in 823 msecs (HTTP/1.1 200) 8 headers in 257 bytes (1 switches on core 0)
+[pid: 25271|app: 0|req: 2/2] 192.168.86.115 () {34 vars in 449 bytes} [Thu Jun 20 21:15:03 2024] GET /api/audio/32/ => generated 221 bytes in 10 msecs (HTTP/1.1 200) 8 headers in 257 bytes (1 switches on core 0)
+[pid: 25271|app: 0|req: 3/3] 192.168.86.115 () {34 vars in 449 bytes} [Thu Jun 20 21:15:04 2024] GET /api/audio/32/ => generated 221 bytes in 10 msecs (HTTP/1.1 200) 8 headers in 257 bytes (1 switches on core 0)
+[pid: 25271|app: 0|req: 4/4] 192.168.86.115 () {34 vars in 449 bytes} [Thu Jun 20 21:15:04 2024] GET /api/audio/32/ => generated 221 bytes in 14 msecs (HTTP/1.1 200) 8 headers in 257 bytes (1 switches on core 0)
+[pid: 25271|app: 0|req: 5/5] 192.168.86.115 () {34 vars in 450 bytes} [Thu Jun 20 21:16:44 2024] GET /api/audio/32/ => generated 221 bytes in 23 msecs (HTTP/1.1 200) 8 headers in 257 bytes (1 switches on core 0)
