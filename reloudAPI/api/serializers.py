@@ -32,14 +32,14 @@ class AudioSerializer(serializers.ModelSerializer):
             request = self.context.get('request')
             file_path = default_storage.path(obj.preview_image.name)
             url_path = os.path.relpath(file_path, settings.MEDIA_ROOT)
-            return request.build_absolute_uri(settings.MEDIA_URL + url_path)
+            return 'https://api.reloud.xyz' + settings.MEDIA_URL + url_path
         return None
     
     def get_audio(self, obj):
         request = self.context.get('request')
         file_path = default_storage.path(obj.audio.name)
         url_path = os.path.relpath(file_path, settings.MEDIA_ROOT)
-        return request.build_absolute_uri(settings.MEDIA_URL + url_path)
+        return 'https://api.reloud.xyz' + settings.MEDIA_URL + url_path
     
 
 
