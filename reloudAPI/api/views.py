@@ -54,7 +54,7 @@ def sessions(request):
         print(email)
         print(password)
         password = request.data.get('password')
-        user = authenticate(username=email, password=password)
+        user = authenticate(username=email.lower(), password=password)
         print(user)
         print(user)
         print(request)
