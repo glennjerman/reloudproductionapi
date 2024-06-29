@@ -65,6 +65,10 @@ class User(AbstractBaseUser):
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = []  # Here you can add required fields like first_name, last_name
 
+    def save(self, *args, **kwargs):
+        self.email = self.email.lower()
+        return super().save(*args, **kwargs)
+
     def __str__(self):
         return self.email
     
